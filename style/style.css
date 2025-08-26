@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap");
+.body {
+  font-family: "Space Grotesk", sans-serif;
+}
+/************************ navvar  **********************/
+.navbar {
+  background-color: whitesmoke;
+  border-radius: 50px;
+  padding: 10px 19px;
+  margin-top: 18px;
+}
+.nav-fun-icon {
+  margin-right: 16px;
+  background-color: white;
+  padding: 18px;
+  margin-top: 6px;
+}
+.nav-fun-icon:hover {
+  background-color: rgb(97, 97, 245);
+  color: white;
+  transition: 0.3s;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+.dropdown-menu {
+  transition: all 0.3s ease-in-out;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown a {
+  text-decoration: none;
+}
+
+.navbar-nav {
+  gap: 25px;
+  font-size: 17px;
+  font-weight: 400;
+  margin-top: 7px;
+  text-align: center;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* //////// */
+.info {
+  font-size: 18px;
+  font-weight: 400;
+  margin-right: -4px;
+  margin-top: 10px;
+}
+.number {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.logo {
+  margin-left: 10px;
+  margin-top: 4px;
+}
+.blog {
+  padding-left: 0px;
+}
+.Contact {
+  padding-left: 0px;
+  font-family: "Space Grotesk", sans-serif;
+}
+.Projects {
+  padding-left: 5px;
+  font-family: "Space Grotesk", sans-serif;
+}
+.home {
+  margin-left: 18px;
+  font-family: "Space Grotesk", sans-serif;
+}
+.About {
+  padding-left: 0px;
+  font-family: "Space Grotesk", sans-serif;
+}
+.fa_down {
+  font-size: 10px;
+}
+/****************** baner_section **************** */
+header {
+  background-color: white;
+}
+.section_padding {
+  padding: 95px;
+}
+.bener_title {
+  font-family: "Space Grotesk", sans-serif;
+  padding-top: 105px;
+  padding-left: 10px;
+}
+.bener_title h1 {
+  font-size: 70px;
+  font-weight: 700;
+}
+.bener_title p {
+  font-size: 17px;
+  font-weight: 400;
+  padding-top: 24px;
+  padding-right: 15px;
+  line-height: 29px;
+  margin-left: -2px;
+}
+.btn {
+  margin-top: 20px;
+}
+.bodear_btn {
+  border: 1px solid #789cf4;
+  padding: 16px 30px;
+  background-color: #789cf4;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+  margin-left: -15px;
+}
+.bg {
+  background-color: #ffdd84;
+  padding: 15px;
+  border-radius: 50px;
+  margin-bottom: -15px;
+  margin-right: 3px;
+  color: #8ec6a0;
+}
+.bodear_btn_2 {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #ddd;
+  margin-left: 50px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.banner_image {
+  height: 600px;
+  margin-top: 25px;
+  margin-left: -81px;
+}
+/********************** our features   section *****************/
+.features_padding {
+  background-color: whitesmoke;
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+.feature_img-1 {
+  position: absolute;
+  border-radius: 15px;
+  height: 525px;
+  width: 450px;
+  margin-left: 40px;
+}
+.img_bg {
+  background-color: green;
+  height: 230px;
+  width: 450px;
+  border-radius: 15px;
+  position: absolute;
+  margin-top: 330px;
+  margin-left: 9px;
+}
+.feature_img-2 {
+  position: relative;
+  border: 12px solid rgb(197, 18, 18);
+  border-radius: 15px;
+  margin-top: 270px;
+  margin-left: 195px;
+  height: 320px;
+  width: 330px;
+}
+.features_title {
+  margin-left: 61px;
+  margin-top: 12px;
+}
+.features_title p {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  color: green;
+  font-family: "Space Grotesk", sans-serif;
+}
+.features_title h1 {
+  font-size: 39px;
+  font-weight: 700;
+  font-family: "Space Grotesk", sans-serif;
+  line-height: 50px;
+}
+.single_tech {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-left: 61px;
+  margin-top: 41px;
+}
+.tech_dis h4 {
+  margin-top: 3px;
+  /* font-family: "Space Grotesk", sans-serif; */
+  font-size: 24px;
+  font-weight: 500;
+}
+.tech_dis p {
+  margin-top: 14px;
+  font-size: 18px;
+  font-weight: 500;
+  /* font-family: "Space Grotesk", sans-serif; */
+}
+.single_tech_2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  margin-left: 61px;
+  margin-top: 18px;
+}
+.single_tech_3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  margin-left: 61px;
+  margin-top: 18px;
+}
+.feature-icon-1 {
+  background-color: #a5d6b5;
+  text-align: center;
+  padding: 14px;
+  border-radius: 15px;
+}
+.feature-icon-2 {
+  background-color: #85a4f0;
+  text-align: center;
+  padding: 12px 25px;
+  border-radius: 15px;
+}
+.feature-icon-3 {
+  background-color: #fadc8f;
+  text-align: center;
+  padding: 15px 20px;
+  border-radius: 15px;
+}
