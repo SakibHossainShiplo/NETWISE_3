@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap");
-.body {
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap");
+.space-grotesk {
   font-family: "Space Grotesk", sans-serif;
 }
+
 /************************ navvar  **********************/
 .navbar {
   background-color: whitesmoke;
@@ -69,7 +71,7 @@
 .info {
   font-size: 18px;
   font-weight: 400;
-  margin-right: -4px;
+  margin-right: 12px;
   margin-top: 10px;
 }
 .number {
@@ -78,8 +80,8 @@
   font-weight: 400;
 }
 .logo {
-  margin-left: 10px;
-  margin-top: 4px;
+  margin-left: -4px;
+  margin-top: 6px;
 }
 .blog {
   padding-left: 0px;
@@ -93,11 +95,11 @@
   font-family: "Space Grotesk", sans-serif;
 }
 .home {
-  margin-left: 18px;
+  margin-left: 16px;
   font-family: "Space Grotesk", sans-serif;
 }
 .About {
-  padding-left: 0px;
+  margin-left: 0px;
   font-family: "Space Grotesk", sans-serif;
 }
 .fa_down {
@@ -112,20 +114,20 @@ header {
 }
 .bener_title {
   font-family: "Space Grotesk", sans-serif;
-  padding-top: 105px;
-  padding-left: 10px;
+  padding-top: 104px;
 }
 .bener_title h1 {
-  font-size: 70px;
+  font-size: 72px;
   font-weight: 700;
+  margin-left: -10px;
 }
 .bener_title p {
   font-size: 17px;
   font-weight: 400;
-  padding-top: 24px;
+  padding-top: 18px;
   padding-right: 15px;
   line-height: 29px;
-  margin-left: -2px;
+  margin-left: -8px;
 }
 .btn {
   margin-top: 20px;
@@ -136,10 +138,10 @@ header {
   background-color: #789cf4;
   border-radius: 50px;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 600;
   text-decoration: none;
   color: white;
-  margin-left: -15px;
+  margin-left: -21px;
 }
 .bg {
   background-color: #ffdd84;
@@ -162,7 +164,7 @@ header {
 .banner_image {
   height: 600px;
   margin-top: 25px;
-  margin-left: -81px;
+  margin-left: -95px;
 }
 /********************** our features   section *****************/
 .features_padding {
@@ -175,7 +177,7 @@ header {
   border-radius: 15px;
   height: 525px;
   width: 450px;
-  margin-left: 40px;
+  margin-left: 26px;
 }
 .img_bg {
   background-color: green;
@@ -184,19 +186,19 @@ header {
   border-radius: 15px;
   position: absolute;
   margin-top: 330px;
-  margin-left: 9px;
+  margin-left: -10px;
 }
 .feature_img-2 {
   position: relative;
   border: 12px solid rgb(197, 18, 18);
   border-radius: 15px;
   margin-top: 270px;
-  margin-left: 195px;
+  margin-left: 180px;
   height: 320px;
   width: 330px;
 }
 .features_title {
-  margin-left: 61px;
+  margin-left: 45px;
   margin-top: 12px;
 }
 .features_title p {
@@ -205,6 +207,7 @@ header {
   font-weight: 500;
   color: green;
   font-family: "Space Grotesk", sans-serif;
+  letter-spacing: 3px;
 }
 .features_title h1 {
   font-size: 39px;
@@ -216,8 +219,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 30px;
-  margin-left: 61px;
+  gap: 33px;
+  margin-left: 0px;
   margin-top: 41px;
 }
 .tech_dis h4 {
@@ -237,7 +240,7 @@ header {
   align-items: center;
   justify-content: center;
   gap: 28px;
-  margin-left: 61px;
+  margin-left: 0px;
   margin-top: 18px;
 }
 .single_tech_3 {
@@ -245,7 +248,7 @@ header {
   align-items: center;
   justify-content: center;
   gap: 28px;
-  margin-left: 61px;
+  margin-left: 0px;
   margin-top: 18px;
 }
 .feature-icon-1 {
@@ -253,16 +256,554 @@ header {
   text-align: center;
   padding: 14px;
   border-radius: 15px;
+  margin-left: 44px;
+  margin-top: -12px;
 }
 .feature-icon-2 {
   background-color: #85a4f0;
   text-align: center;
   padding: 12px 25px;
   border-radius: 15px;
+  margin-left: 44px;
+  margin-top: -12px;
 }
 .feature-icon-3 {
   background-color: #fadc8f;
   text-align: center;
   padding: 15px 20px;
   border-radius: 15px;
+  margin-left: 44px;
+  margin-top: -12px;
+}
+/********************** smart solutions section ******************* */
+.smart_padding {
+  padding: 126px 0px;
+  position: relative;
+}
+.section_title h1 {
+  font-size: 39px;
+  margin-left: -6px;
+  line-height: 50px;
+  font-family: "Space Grotesk", sans-serif;
+}
+.section_title p {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-family: "Space Grotesk", sans-serif;
+  margin-left: -9px;
+  color: green;
+}
+.single_box {
+  border: 1px solid #cccccc;
+  background: white;
+  padding: 20px;
+  margin-top: 35px;
+  margin-left: -8px;
+  border-radius: 10px;
+}
+.single_box .img1 {
+  border: 1px solid green;
+  padding: 17px;
+  background-color: green;
+  border-radius: 20px;
+  margin-top: 17px;
+  margin-left: 18px;
+}
+.single_box .img2 {
+  border: 1px solid #7da0f5;
+  padding: 17px;
+  background-color: #7da0f5;
+  border-radius: 20px;
+  margin-top: 17px;
+  margin-left: 18px;
+}
+.single_box .img3 {
+  border: 1px solid #ffde88;
+  padding: 17px;
+  background-color: #ffde88;
+  border-radius: 20px;
+  margin-top: 17px;
+  margin-left: 18px;
+}
+
+.single_met h5 {
+  font-family: "Space Grotesk", sans-serif;
+  margin-top: 67px;
+  font-weight: 600;
+  font-size: 22px;
+  margin-left: 19px;
+}
+.single_met p {
+  margin-top: 23px;
+  font-size: 19px;
+  font-weight: 400;
+  margin-left: 19px;
+  font-family: "Roboto", sans-serif;
+}
+
+.icone_crrosell {
+  position: absolute;
+  right: 0px;
+  margin-right: 125px;
+  top: 190px;
+  gap: 70px;
+}
+.fa_icon {
+  border: 5px solid #a0a4a8;
+  padding: 14px;
+  border-radius: 10px;
+  margin-left: 12px;
+  font-size: 20px;
+}
+/* **********************Connecting_title********************** */
+.Connecting_padding {
+  padding: 117px;
+  background-color: whitesmoke;
+}
+.counter-image {
+  margin-top: 30px;
+  width: 550px;
+  height: 550px;
+  margin-left: -10px;
+  border-radius: 15px;
+}
+.Connecting_title {
+  font-size: 71px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  margin-left: -20px;
+}
+.winning_title {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 30px;
+  /* margin-left: -10px; */
+  font-family: "Noto Sans", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+  line-height: 29px;
+  margin-left: -20px;
+}
+.counter_items {
+}
+.counter {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 12px;
+  text-align: center;
+  padding-top: 30px;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+.counter h2 {
+  font-size: 60px;
+  font-family: "Space Grotesk", sans-serif;
+  margin-left: -10px;
+}
+.counter p {
+  padding-bottom: 30px;
+  font-size: 18px;
+  font-family: "Noto Sans", sans-serif;
+}
+.counter span {
+  font-size: 50px;
+  margin-left: -19px;
+}
+.counter_2 {
+  border: 1px solid wheat;
+  margin-top: 50px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 12px;
+  text-align: center;
+  padding-top: 30px;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+.counter_2 h2 {
+  font-size: 50px;
+  font-family: "Space Grotesk", sans-serif;
+  margin-left: -10px;
+}
+.counter_2 p {
+  padding-bottom: 30px;
+  padding-top: 5px;
+  font-size: 18px;
+  font-family: "Noto Sans", sans-serif;
+}
+.counter span {
+  font-size: 50px;
+  margin-left: -19px;
+}
+
+/*********************** Technology_section************************ */
+.Technology_padding {
+  background-color: whitesmoke;
+}
+
+.Technology_title {
+  text-align: center;
+}
+.Technology_title p {
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  font-family: "Noto Sans", sans-serif;
+  padding-right: 25px;
+}
+.Technology_title h1 {
+  font-family: "Space Grotesk", sans-serif;
+  padding-right: 11px;
+  line-height: 50px;
+  letter-spacing: -0.5px;
+}
+.single_card {
+  border: 1px solid #dddddd;
+  /* background-color: white; */
+  margin-top: 30px;
+  border-radius: 17px;
+  margin-right: 10px;
+}
+.card_title {
+  padding-top: 59px;
+  padding-left: 33px;
+}
+.card_title h4 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+}
+.card_title p {
+  font-size: 17px;
+  font-family: "Noto Sans", sans-serif;
+  padding-top: 5px;
+  font-weight: 400;
+}
+
+.icon_items .icon {
+  border: 1px solid #dddddd;
+  padding: 10px 6px;
+  margin-top: 72px;
+  border-radius: 5px;
+  margin-left: 9px;
+  gap: 5px;
+}
+.single_card_2 {
+  border: 1px solid #dddddd;
+  /* background-color: white; */
+  margin-top: 55px;
+  border-radius: 17px;
+  margin-right: 10px;
+}
+.card_title {
+  padding-top: 59px;
+  padding-left: 33px;
+}
+.card_title_2 h4 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+}
+.card_title_2 p {
+  font-size: 17px;
+  font-family: "Noto Sans", sans-serif;
+  padding-top: 5px;
+  font-weight: 400;
+}
+
+.icon_items_2 .icon {
+  border: 1px solid #dddddd;
+  padding: 10px 6px;
+  margin-top: 72px;
+  border-radius: 5px;
+  margin-left: 9px;
+  gap: 5px;
+}
+.single_card_3 {
+  border: 1px solid #dddddd;
+  /* background-color: white; */
+  margin-top: 55px;
+  border-radius: 17px;
+  margin-right: 10px;
+}
+.card_title {
+  padding-top: 59px;
+  padding-left: 33px;
+}
+.card_title_3 h4 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+}
+.card_title_3 p {
+  font-size: 17px;
+  font-family: "Noto Sans", sans-serif;
+  padding-top: 5px;
+  font-weight: 400;
+}
+
+.icon_items_3 .icon {
+  border: 1px solid #dddddd;
+  padding: 10px 6px;
+  margin-top: 72px;
+  border-radius: 5px;
+  margin-left: 9px;
+  gap: 5px;
+}
+.team_img {
+  height: 180px;
+}
+
+.boder_btn {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 93px;
+  margin-right: 10px;
+  padding-bottom: 100px;
+}
+.boder_btn a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700px;
+  border: 1px solid black;
+  padding: 15px 40px;
+  border-radius: 50px;
+}
+/********************************* login section **************************** */
+.login_padding {
+  background-color: whitesmoke;
+}
+.bgg {
+  background-color: white;
+  padding-left: -120px;
+  margin-left: -120px;
+}
+.login_title {
+  padding-top: 80px;
+  margin-left: -8px;
+}
+.login_title p {
+  letter-spacing: 2.5px;
+  color: green;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: "Noto Sans", sans-serif;
+}
+.login_title h2 {
+  font-family: "Space Grotesk", sans-serif;
+  line-height: 50px;
+  font-size: 40px;
+  font-weight: 700;
+  margin-left: -1px;
+}
+.contact-form {
+  padding-top: 80px;
+  /* padding-bottom: 100px; */
+  /* background-color: white; */
+  margin-left: 120px;
+  margin-right: 150px;
+  /* position: absolute; */
+  max-width: 550px;
+}
+label {
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: -8px;
+  margin-top: 35px;
+}
+.lable_2 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: -8px;
+  margin-top: 0px;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  border: none;
+  margin-bottom: 17px;
+  background-color: whitesmoke;
+  margin-top: 10px;
+  font-size: 18px;
+  border-radius: 50px;
+  padding-top: 0;
+  margin-left: -10px;
+}
+.contact-form input[type="submit"] {
+  width: auto;
+  background-color: blue;
+  border-radius: 50px;
+  color: whitesmoke;
+  font-weight: 500;
+  margin-top: -30px;
+  padding: 15px 32px;
+  margin-bottom: 0px;
+}
+.message-image {
+  position: absolute;
+  height: 600px;
+  margin-top: -865px;
+}
+.message-image img {
+  height: 860px;
+  margin-left: 650px;
+  margin-top: 80px;
+  width: 580px;
+}
+/******************************* subscribe_padding*********************** */
+.subscribe_padding {
+  background-color: #ffcc46;
+  margin-top: 75px;
+  padding-bottom: 80px;
+}
+.subscribe_title img {
+  margin-left: -7px;
+  margin-top: 83px;
+}
+.subscribe_title h3 {
+  margin-left: 23px;
+  /* font-family: "Noto Sans", sans-serif; */
+  /* font-family: "Roboto", sans-serif; */
+  font-size: 31px;
+  margin-top: 80px;
+  line-height: 40px;
+
+  font-family: "Space Grotesk", sans-serif;
+}
+.input input {
+  padding-bottom: 35px;
+  padding-right: 90px;
+  border-radius: 50px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: -8px;
+  margin-top: 85px;
+  border: none;
+}
+
+.subscribe_btn {
+  margin-left: 20px;
+  margin-top: 85px;
+  padding: 20px 30px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background-color: green;
+  border: none;
+}
+/* *****************************business_section************************************* */
+.business_padding {
+  padding: 90px;
+  background-color: whitesmoke;
+}
+.dusiness_title p {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  color: green;
+  text-transform: uppercase;
+  font-family: "Space Grotesk", sans-serif;
+  margin-left: -7px;
+  margin-top: 25px;
+}
+.dusiness_title h2 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 40px;
+  margin-left: -7px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  line-height: 50px;
+}
+.business_dis {
+  font-size: 18px;
+  font-family: "Noto Sans", sans-serif;
+  margin-left: -7px;
+  margin-top: 12px;
+  line-height: 28px;
+}
+.call_contace .phone {
+  background: green;
+  padding: 17px;
+  border-radius: 100px;
+  text-align: center;
+  align-items: center;
+  margin-top: 32px;
+  margin-left: -6px;
+}
+.call_contace .anytime {
+  padding-top: 0;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-left: 16px;
+  /* font-family: "Noto Sans", sans-serif; */
+  /* font-family: "Space Grotesk", sans-serif; */
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  margin-top: 28px;
+  letter-spacing: 0.3px;
+}
+.call_contace .fun_no {
+  font-size: 18px;
+  margin-left: 16px;
+  /* font-family: "Noto Sans", sans-serif; */
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  /* font-family: "Roboto", sans-serif; */
+  margin-top: -10px;
+}
+.card_star {
+  margin-top: 65px;
+  margin-left: 60px;
+}
+.card_star .staar {
+  letter-spacing: -0.6px;
+  font-size: 20px;
+  color: #ffcc46;
+  margin-left: 0px;
+}
+.card_star p {
+  letter-spacing: -0.6px;
+}
+.business_card_dis {
+  font-size: 23px;
+  font-weight: 400;
+  font-family: "Space Grotesk", sans-serif;
+  margin-left: -5px;
+  letter-spacing: 2px;
+  margin-top: 32px;
+}
+.business_bg {
+  background-color: white;
+
+  border-radius: 20px;
+}
+.author_img {
+  margin-left: 55px;
+  margin-top: 50px;
+}
+.business_card_title {
+  margin-left: 21px;
+  margin-top: 60px;
+}
+.business_card_title h4 {
+  /* letter-spacing: -0.2px; */
+  font-size: 23px;
+}
+.business_card_title p {
+  font-size: 18px;
+  margin-left: 2px;
+  font-weight: 400;
+  margin-top: -4px;
+  letter-spacing: 0.3px;
+}
+.quote_img {
+  margin-left: 150px;
+  margin-top: 65px;
 }
