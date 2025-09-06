@@ -807,3 +807,346 @@ label {
   margin-left: 150px;
   margin-top: 65px;
 }
+/********************* solutions_section ***************************** */
+.solutions_title {
+  text-align: center;
+  padding-top: 52px;
+}
+.solutions_title p {
+  text-transform: uppercase;
+  color: green;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 2.9px;
+  margin-left: -24px;
+}
+.solutions_title h3 {
+  font-size: 42px;
+  font-family: "Space Grotesk", sans-serif;
+  margin-left: -11px;
+  letter-spacing: -1.5px;
+}
+.project_mg_1 {
+  margin-left: -10px;
+  width: 550px;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+.project_mg_2 {
+  width: 550px;
+  margin-top: 25px;
+  margin-left: -10px;
+  border-radius: 20px;
+}
+.project_mg_3 {
+  width: 550px;
+  margin-top: 29px;
+  margin-left: -10px;
+  border-radius: 20px;
+}
+.project_mg_4 {
+  width: 550px;
+  margin-top: 26px;
+  margin-left: -10px;
+  border-radius: 20px;
+}
+/*********************************** byte_section*********************************** */
+.byte_padding {
+  border-top: 1px solid green;
+  margin-top: 115px;
+  padding-top: 30px;
+  border-bottom: 1px solid green;
+  padding-bottom: 5px;
+}
+.byte_padding p {
+  font-size: 55px;
+  font-weight: 200;
+  margin-top: -5px;
+  margin-left: 15px;
+}
+/* *********************************Empowering_section*********************** */
+.Empowering_padding {
+  padding: 90px;
+  background-color: whitesmoke;
+}
+
+.Empowering_title p {
+  text-transform: uppercase;
+  color: green;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+  margin-left: -7px;
+  padding-top: 35px;
+  font-family: "Space Grotesk", sans-serif;
+}
+.Empowering_title h2 {
+  font-size: 42px;
+  font-family: "Space Grotesk", sans-serif;
+  margin-left: -8px;
+  letter-spacing: -1.5px;
+}
+.accordion {
+  border: none;
+  margin-top: 30px;
+}
+.accordion-header button {
+  font-size: 18px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  border-radius: 10px;
+  margin-top: 7px;
+  padding: 30px;
+  padding-left: 27px;
+}
+.accordion-body {
+  font-size: 18px;
+  font-family: "Noto Sans", sans-serif;
+}
+.accordion-item_1 {
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: -8px;
+}
+.accordion-item_2 {
+  border: none;
+  margin-top: 50px;
+  background-color: white;
+  border-radius: 30px;
+  margin-left: -8px;
+}
+.accordion-item_3 {
+  border: none;
+  margin-top: 30px;
+  background-color: white;
+  border-radius: 20px;
+  margin-left: -8px;
+}
+.button_2 {
+  font-size: 18px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  margin-left: 4px;
+  margin-top: 7px;
+  border: none;
+}
+.faq-img-1 {
+  height: 275px;
+  width: 495px;
+  margin-left: 43px;
+  margin-top: 30px;
+  border-radius: 15px;
+}
+.faq-img-2 {
+  margin-top: 22px;
+  height: 233px;
+  margin-left: 41px;
+  border-radius: 15px;
+}
+.counter_peple {
+  background-color: #ffcc46;
+  text-align: center;
+  margin-top: 22px;
+  width: 235px;
+  margin-left: 15px;
+  padding: 20px;
+  border-radius: 15px;
+}
+.counter_peple h2 {
+  font-size: 60px;
+}
+.counter_peple p {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  margin-left: 3px;
+  margin-top: 11px;
+}
+/*************************** blog_section******************* ********/
+.blog_section {
+  padding-bottom: 120px;
+}
+
+.blog_title {
+  text-align: center;
+}
+.blog_title p {
+  text-transform: uppercase;
+  color: green;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+  margin-left: -23px;
+  padding-top: 22px;
+  font-family: "Space Grotesk", sans-serif;
+}
+.blog_title h2 {
+  font-size: 42px;
+  font-family: "Space Grotesk", sans-serif;
+  margin-left: -11px;
+  letter-spacing: -1.5px;
+  font-weight: 700;
+  margin-top: -2px;
+}
+.card {
+  margin-top: 30px;
+  margin-left: -10px;
+}
+.mane_icon {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -1px;
+  margin-left: -2px;
+  margin-top: -6px;
+}
+.date_icon {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.1px;
+  margin-right: 5px;
+  margin-top: -6px;
+}
+.card-body h3 {
+  font-size: 24px;
+  margin-top: 4px;
+  line-height: 36px;
+}
+.card-body {
+  padding: 20px;
+}
+.card-body p {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  margin-left: 2px;
+  /* margin-top: 5px; */
+  padding-top: 5px;
+}
+
+.btn_pammiry {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.btn_pammiry a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  border: 1px solid blue;
+  padding: 15px 50px;
+  border-radius: 50px;
+}
+/*********************** footer section  ******************* */
+/* .footer_area {
+  background-color: #14adf3;
+  padding: 50px;
+}
+/* .footer_area,
+.footer_area a {
+  color: white;
+} */
+.footer_wid {
+  margin-top: 50px;
+}
+.footer_wid h3 {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.socile_icon a {
+  font-size: 20px;
+  padding: 15px;
+  margin-top: 15px;
+  display: inline-block;
+}
+.footer_wid ul,
+a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 35px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Space Grotesk", sans-serif;
+}
+.contact_info {
+  position: relative;
+  margin-top: 20px;
+  padding-left: 30px;
+  color: white;
+}
+.contact_info .icon {
+  position: absolute;
+  left: 0;
+  top: 7px;
+  color: white;
+}
+.footer_wid p {
+  color: white;
+}
+
+.footerr_from {
+  margin-top: 40px;
+}
+
+.footerr_from input,
+button {
+  border: none;
+  text-transform: uppercase;
+  padding: 7px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+.copyright_area {
+  padding: 20px;
+}
+.copyright_area,
+.copyright_area a {
+  color: #b5b5b5;
+}
+.copyright_area ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: end;
+}
+.copyright_area li::after {
+  content: "|";
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.copyright_area li:last-child::after {
+  display: none;
+}
+
+/* //////////////////////////////// */
+.section_bg {
+  background-color: #020842;
+  padding: 80px;
+}
+.footer_card {
+  background-color: #0f144b;
+  padding: 22px;
+  border-radius: 12px;
+  color: white;
+  gap: 14px;
+  font-family: "Space Grotesk", sans-serif;
+  margin-top: 38px;
+  margin-left: -3px;
+}
+.footer_card img {
+  background-color: #3f3640;
+  padding: 20px;
+  border-radius: 100%;
+  margin-top: 35px;
+}
+.footer_card p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.footer_card h4 {
+  line-height: 35px;
+  letter-spacing: -0.7px;
+  margin-top: 15px;
+}
