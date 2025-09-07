@@ -1052,29 +1052,39 @@ label {
   margin-bottom: 20px;
   color: white;
 }
-
+.footer_wid h4 {
+  color: white;
+}
 .socile_icon a {
   font-size: 20px;
   padding: 15px;
   margin-top: 15px;
   display: inline-block;
 }
-.footer_wid ul,
-a {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+.footer_wid a {
   line-height: 35px;
   text-decoration: none;
   font-size: 20px;
   font-family: "Space Grotesk", sans-serif;
+  color: white;
+  padding-bottom: 15px;
 }
+
+.footer_wid ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .contact_info {
   position: relative;
   margin-top: 20px;
   padding-left: 30px;
   color: white;
+  font-size: 22px;
 }
+
 .contact_info .icon {
   position: absolute;
   left: 0;
@@ -1089,14 +1099,14 @@ a {
   margin-top: 40px;
 }
 
-.footerr_from input,
+/* .footerr_from input,
 button {
   border: none;
   text-transform: uppercase;
   padding: 7px;
   margin-bottom: 10px;
   margin-top: 15px;
-}
+} */
 .copyright_area {
   padding: 20px;
 }
