@@ -1160,3 +1160,251 @@ button {
   letter-spacing: -0.7px;
   margin-top: 15px;
 }
+/****************************************************** about us style ************************************************************************** */
+
+/***************************************** about baner ************************************************** */
+.section_bg_color {
+  background-color: #fffcf3;
+  padding-top: 95px;
+}
+
+.breadcrumb-image {
+  margin-top: 85px;
+  margin-left: -10px;
+}
+.breadcrumb-text h1 {
+  font-size: 55px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  margin-top: 165px;
+  letter-spacing: -1px;
+  margin-left: -7px;
+}
+.breadcrumb-text ul {
+  gap: 41px;
+  font-size: 22px;
+  font-weight: 700;
+  margin-right: 8px;
+  margin-top: 28px;
+  font-family: "Space Grotesk", sans-serif;
+}
+/************************** unlocking section  ****************************/
+.about-img-1 {
+  margin-top: 125px;
+  margin-left: -10px;
+  width: 485px;
+  position: absolute;
+}
+.about-shape {
+  position: relative;
+  margin-top: 200px;
+  margin-left: 340px;
+}
+.Unlocking_card {
+  position: relative;
+  background-color: white;
+  max-width: 350px;
+  padding: 20px;
+  border-radius: 12px;
+  gap: 30px;
+  margin-top: 130px;
+  margin-left: 180px;
+}
+.Unlocking_title p {
+  text-transform: uppercase;
+  color: green;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2.4px;
+  margin-left: -10px;
+  margin-top: 154px;
+}
+.Unlocking_title h3 {
+  font-size: 42px;
+  font-family: "Space Grotesk", sans-serif;
+  margin-left: -10px;
+  letter-spacing: -1.5px;
+}
+.Unlocking_dis {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  padding-top: 10px;
+  margin-left: -10px;
+}
+.Unlocking_list::before {
+  right: 305px;
+  top: 0;
+  height: 180px;
+  width: 3px;
+  background: #789cf4;
+  position: absolute;
+  content: "";
+}
+.Unlocking_list {
+  margin-top: 40px;
+  gap: 20px;
+  margin-left: -40px;
+  position: relative;
+}
+.Unlocking_list ul,
+li {
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.check {
+  background-color: green;
+  font-size: 9px;
+  padding: 6px;
+  border-radius: 300%;
+  color: white;
+}
+.Unlocking_btn {
+  padding: 13px 50px;
+  border-radius: 100px;
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: -10px;
+  border: 1px solid blue;
+}
+/* **********************************Craft section ****************************** */
+.Craft_section {
+  padding: 70px;
+  padding-bottom: 120px;
+}
+.Craft_title p {
+  text-transform: uppercase;
+  color: green;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2.4px;
+  margin-left: -8px;
+  margin-top: 62px;
+  font-family: "Space Grotesk", sans-serif;
+}
+.Craft_title h3 {
+  font-size: 42px;
+  font-family: "Space Grotesk", sans-serif;
+  margin-left: -10px;
+  letter-spacing: -1.5px;
+}
+.Craft_content_dis {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  margin-left: -9px;
+  margin-top: 20px;
+}
+.Craft_card {
+  margin-top: 60px;
+  border-radius: 40px;
+}
+.who-we-are-img {
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  height: 400px;
+  width: 435px;
+}
+.bg_craft {
+  background-color: #ffbe16;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+.card-body {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.card-body img {
+  background-color: green;
+  margin-top: 49px;
+  padding: 26px;
+  border-radius: 100px;
+}
+.card-body h5 {
+  font-size: 55px;
+  font-weight: 800;
+  font-family: "Space Grotesk", sans-serif;
+  margin-top: 30px;
+}
+.subscribe_2_padding {
+  background-color: #ffcc46;
+  padding-block: 40px;
+  padding-bottom: 80px;
+}
+/* Digital_Innovation_section */
+.Digital_Innovation_padding {
+  padding: 70px;
+  padding-bottom: 165px;
+}
+
+.Digital_Innovation_title {
+  text-align: center;
+  margin-top: 20px;
+}
+.Digital_Innovation_title p {
+  text-transform: uppercase;
+  color: green;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 2.4px;
+  margin-left: -26px;
+  margin-top: 42px;
+  font-family: "Space Grotesk", sans-serif;
+}
+.Digital_Innovation_title h3 {
+  font-size: 42px;
+  font-family: "Space Grotesk", sans-serif;
+  margin-left: -21px;
+  letter-spacing: -1.5px;
+  font-weight: 700;
+}
+.Digital_Innovation_bg {
+  background-color: #f1f6fc;
+  border-radius: 20px;
+  padding: 40px 15px;
+  margin-top: 34px;
+}
+.Digital_ittle {
+  /* gap: 50px; */
+
+  justify-content: space-between;
+}
+.Digital_ittle h3 {
+  font-size: 30px;
+  font-family: "Space Grotesk", sans-serif;
+  letter-spacing: 0.3px;
+}
+.Digital_ittle img {
+  background-color: green;
+  padding: 5px;
+  border-radius: 12px;
+}
+.Digital_Innovation_bg h5 {
+  font-size: 42px;
+  font-weight: 700;
+  font-family: "Space Grotesk", sans-serif;
+  margin-top: -5px;
+}
+.Digital_Innovation_bg ul {
+  margin-top: 40px;
+}
+.Digital_Innovation_bg li {
+  font-size: 18px;
+  font-weight: 400;
+}
+.Digital_btn {
+  border: 1px solid blue;
+  padding: 16px;
+  border-radius: 100px;
+  text-align: center;
+}
+.Digital_btn a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}
