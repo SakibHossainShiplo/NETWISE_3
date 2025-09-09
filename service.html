@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- css.style -->
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Netwise</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top container">
+        <div class="container-fluid">
+          <a class="navbar-brand me-auto" href="#"
+            ><img class="logo" src="img/logo.png" alt=""
+          /></a>
+
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <img
+                class="offcanvas-title"
+                id="offcanvasNavbarLabel"
+                src="img/nav-logo.png"
+                alt=""
+              />
+
+              <button
+                type="button"
+                class="btn-close text-reset"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body align-items-center">
+              <div
+                class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3"
+              >
+                <div class="dropdown">
+                  <a class="home" href=""
+                    >Home <i class="fas fa-chevron-down fa_down"></i
+                  ></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="index.html">Home One</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Home Tow</a></li>
+                  </ul>
+                </div>
+                <div class="dropdown">
+                  <a class="About" href="about.html">About Us</a>
+                </div>
+                <div class="dropdown">
+                  <a class="" href="service.html"
+                    >Services <i class="fas fa-chevron-down fa_down"></i
+                  ></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="service.html"
+                        >Services Single</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Services Details</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="dropdown">
+                  <a class="Projects" href=""
+                    >Projects <i class="fas fa-chevron-down fa_down"></i
+                  ></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Projects Single</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Projects Details</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="dropdown">
+                  <a class="blog" href=""
+                    >Blog <i class="fas fa-chevron-down fa_down"></i
+                  ></a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Blog Single</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">blog Details</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="dropdown">
+                  <a class="Contact" href="">Contact</a>
+                </div>
+              </div>
+
+              <a class="nav-link d-flex align-items-center" href="#">
+                <div
+                  class="nav-fun-icon d-flex align-items-center justify-content-center rounded-pill"
+                >
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="info">
+                  <p class="d-inline-block help mb-1">Need help?</p>
+                  <h5 class="number">+123 456 7890</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+      <div class="section_bg_color">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <img
+                class="breadcrumb-image"
+                src="img/breadcrumb-image.svg"
+                alt=""
+              />
+            </div>
+            <div class="col-md-6">
+              <div class="breadcrumb-text text-center text-md-end">
+                <h1>Service</h1>
+                <ul
+                  class="d-flex align-items-center justify-content-center justify-content-md-end mt-30"
+                >
+                  <li>Home</li>
+                  <li>service</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- ***************************service_card_section ******************************-->
+      <section class="service_card_padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="single_box">
+                <img class="img1" src="img/service-icon-1.svg" alt="" />
+                <div class="single_met">
+                  <h5>Quantum lT Solutions</h5>
+                  <p>
+                    As technology continues to <br />
+                    evolve the importance of IT in<br />
+                    shaping future
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="single_box">
+                <img class="img2" src="img/service-icon-2.svg" alt="" />
+                <div class="single_met">
+                  <h5>Smart Net IT Services</h5>
+                  <p>
+                    As technology continues to <br />
+                    evolve the importance of It in <br />
+                    shaping future
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="single_box">
+                <img class="img3" src="img/service-icon-3.svg" alt="" />
+                <div class="single_met">
+                  <h5>Secure Link Technologies</h5>
+                  <p>
+                    As technology continues to <br />
+                    evolve the importance of It in <br />
+                    shaping future
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="single_box">
+                <img class="img1" src="img/service-icon-4.svg" alt="" />
+                <div class="single_met">
+                  <h5>Inno Secure Technologies</h5>
+                  <p>
+                    As technology continues to <br />
+                    evolve the importance of IT in<br />
+                    shaping future
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="single_box">
+                <img class="img2" src="img/service-icon-5.svg" alt="" />
+                <div class="single_met">
+                  <h5>Digital Wizards IT</h5>
+                  <p>
+                    As technology continues to <br />
+                    evolve the importance of It in <br />
+                    shaping future
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="single_box">
+                <img class="img3" src="img/service-icon-6.svg" alt="" />
+                <div class="single_met">
+                  <h5>Tech Minds Solutions</h5>
+                  <p>
+                    As technology continues to <br />
+                    evolve the importance of It in <br />
+                    shaping future
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--************************** subscribe section **************************-->
+      <section class="subscribe_2_padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="d-flex subscribe_title">
+                <div><img src="img/mail-icon.svg" alt="" /></div>
+                <div>
+                  <h3>
+                    Subscribe Our <br />
+                    Newsletter
+                  </h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 d-flex">
+              <div class="input">
+                <input type="text" placeholder="Enter Your Email" />
+              </div>
+              <div>
+                <button class="subscribe_btn">Subscribe Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- *******************************Empowering section ************************** -->
+      <section class="Empowering_padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="Empowering_title">
+                <p>ask question</p>
+                <h2>Empowering Progress Through Technology</h2>
+              </div>
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item accordion-item_1">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      1. What IT services do you offer?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      We offer a range of IT ser including network setup and
+                      management cybersecurity solutions clo computing data
+                      backup and recovery software development and technical
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item accordion-item_2">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button collapsed button_2"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      2. How can you help improve our cybersecurity?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      We offer a range of IT ser including network setup and
+                      management cybersecurity solutions clo computing data
+                      backup and recovery software development and technical
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item accordion-item_3">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      3. How do you handle data backup and recovery?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      We offer a range of IT ser including network setup and
+                      management cybersecurity solutions clo computing data
+                      backup and recovery software development and technical
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div>
+                <img class="faq-img-1" src="img/faq-img-1.png" alt="" />
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <img class="faq-img-2" src="img/faq-img-2.png" alt="" />
+                </div>
+                <div class="col-md-6">
+                  <div class="counter_peple">
+                    <img src="img/people.svg" alt="" />
+                    <h2>7k+</h2>
+                    <p>Trusted Clients</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- **********************service_login section********************************** -->
+      <section class="service_login_padding">
+        <div class="container service_login_bgg">
+          <div class="row">
+            <div class="col-md-7">
+              <div class="service_contact-form">
+                <div class="service_login_title">
+                  <p>talk to us</p>
+                  <h2>Empowering Progress Through Technology</h2>
+                </div>
+                <form action="index.html">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <label for="">Your Name</label>
+                      <input type="text" placeholder="Adnan Walker" />
+                    </div>
+                    <div class="col-md-6">
+                      <label for="">Your Email</label>
+                      <input type="text" placeholder="info@gmail.com" />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <label class="lable_2" for="">Your Number</label>
+                      <input type="tel" placeholder="+088123456789" />
+                    </div>
+                    <div class="col-md-6">
+                      <label class="lable_2" for="">Your Area</label>
+                      <input type="location" placeholder="Dhaka" />
+                    </div>
+                  </div>
+                  <p>
+                    <label class="lable_2" for="">Your Area</label>
+                    <textarea
+                      name="message"
+                      id="message"
+                      cols="15"
+                      rows="4"
+                    ></textarea>
+                  </p>
+                  <p class="login_btn">
+                    <input type="submit" value="Send Now" />
+                  </p>
+                </form>
+              </div>
+            </div>
+            <div class="col-md-5 service_bg_2">
+              <h4 class="service_bg_title">Contact</h4>
+              <div>
+                <div class="d-flex gap-4 align-items-center service_address">
+                  <i class="fa-solid fa-paper-plane service_icon"></i>
+
+                  <div>
+                    <p>Address</p>
+                    <p>4517 Washington ave.Manchester</p>
+                  </div>
+                </div>
+                <div class="d-flex gap-3 align-items-center service_address">
+                  <i class="fa-solid fa-envelope service_icon"></i>
+
+                  <div>
+                    <p>Email</p>
+                    <p>info@example.com</p>
+                  </div>
+                </div>
+                <div class="d-flex gap-3 align-items-center service_address">
+                  <i class="fa-solid fa-phone service_icon"></i>
+
+                  <div>
+                    <p>Phone</p>
+                    <p>(239) 555-0108</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <section class="section_bg">
+        <div class="footer_area">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="d-flex footer_card">
+                  <div>
+                    <img src="img/footer-sort-icon-1.svg" alt="" />
+                  </div>
+                  <div>
+                    <h4>
+                      Tech Fusion <br />
+                      Solutions
+                    </h4>
+                    <p>It encompasses the use of computers, networks</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="d-flex footer_card">
+                  <div>
+                    <img src="img/footer-sort-icon-2.svg" alt="" />
+                  </div>
+                  <div>
+                    <h4>
+                      Digital Edge <br />
+                      Innovations
+                    </h4>
+                    <p>The rapid advancement of technology continuously</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="d-flex footer_card">
+                  <div>
+                    <img src="img/footer-sort-icon-3.svg" alt="" />
+                  </div>
+                  <div>
+                    <h4>
+                      Cloud Wave <br />
+                      Services
+                    </h4>
+                    <p>The rapid advancement of technology continuously</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-3">
+                <div class="footer_wid">
+                  <img src="img/logo-white.png" alt="" />
+                  <p>
+                    Drives Innovation within the IT sector, making it a dynamic
+                  </p>
+                  <p class="contact_info">
+                    <i class="fa-solid fa-location-dot icon"></i>Address
+                  </p>
+                  <p>2464 Royal Ln. Mesa, New Jersey</p>
+                  <p class="contact_info">
+                    <i class="fa-solid fa-envelope icon"></i>Emails
+                  </p>
+                  <p>curtis.weaver@example.com</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="footer_wid">
+                  <h3>Services</h3>
+                  <ul>
+                    <li><a href="">InfoSec Experts</a></li>
+                    <li><a href="">Quantum It Solutions</a></li>
+                    <li><a href="">NexusTech System </a></li>
+                    <li><a href="">SmartNet IT Services</a></li>
+                    <li><a href="">ByteForce Solutions</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="footer_wid">
+                  <h3>Link</h3>
+                  <ul>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Testimonial</a></li>
+                    <li><a href="">Blog And News</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="footer_wid">
+                  <h3>Recent Post</h3>
+                  <div>
+                    <h4>Crafting Tomorrow's <br />Digital World</h4>
+                    <p>October 19, 2024</p>
+                  </div>
+                  <div>
+                    <h4>Technology That <br />Powers the Future</h4>
+                    <p>October 19, 2024</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright_area">
+          <div class="container">
+            <hr />
+            <div class="row">
+              <div class="col-md-6">
+                adipisicing elit. Odio laboriosam esse minus nostrum fugit
+              </div>
+              <div class="col-md-6">
+                <ul>
+                  <li><a href="">Privacy Policy</a></li>
+                  <li><a href="">Terms of condition</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!-- font awesome            -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/js/all.min.js"
+      integrity="sha512-gBYquPLlR76UWqCwD06/xwal4so02RjIR0oyG1TIhSGwmBTRrIkQbaPehPF8iwuY9jFikDHMGEelt0DtY7jtvQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
