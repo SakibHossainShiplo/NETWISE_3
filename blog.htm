@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- css.style -->
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Netwise</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top container">
+        <div class="container-fluid">
+          <a class="navbar-brand me-auto" href="#"
+            ><img class="logo" src="img/logo.png" alt=""
+          /></a>
+
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <img
+                class="offcanvas-title"
+                id="offcanvasNavbarLabel"
+                src="img/nav-logo.png"
+                alt=""
+              />
+
+              <button
+                type="button"
+                class="btn-close text-reset"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body align-items-center">
+              <div
+                class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3"
+              >
+                <div class="dropdown">
+                  <a class="home" href=""
+                    >Home <i class="fas fa-chevron-down fa_down"></i
+                  ></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="index.html">Home One</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Home Tow</a></li>
+                  </ul>
+                </div>
+                <div class="dropdown">
+                  <a class="About" href="about.html">About Us</a>
+                </div>
+                <div class="dropdown">
+                  <a class="" href="service.html"
+                    >Services <i class="fas fa-chevron-down fa_down"></i
+                  ></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="service.html"
+                        >Services Single</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Services Details</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="dropdown">
+                  <a class="Projects" href="project.html"
+                    >Projects <i class="fas fa-chevron-down fa_down"></i
+                  ></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="project.html"
+                        >Projects Single</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Projects Details</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="dropdown">
+                  <a class="blog" href=""
+                    >Blog <i class="fas fa-chevron-down fa_down"></i
+                  ></a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Blog Single</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">blog Details</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="dropdown">
+                  <a class="Contact" href="">Contact</a>
+                </div>
+              </div>
+
+              <a class="nav-link d-flex align-items-center" href="#">
+                <div
+                  class="nav-fun-icon d-flex align-items-center justify-content-center rounded-pill"
+                >
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="info">
+                  <p class="d-inline-block help mb-1">Need help?</p>
+                  <h5 class="number">+123 456 7890</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+      <div class="section_bg_color">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <img
+                class="breadcrumb-image"
+                src="img/breadcrumb-image.svg"
+                alt=""
+              />
+            </div>
+            <div class="col-md-6">
+              <div class="breadcrumb-text text-center text-md-end">
+                <h1>Blog</h1>
+                <ul
+                  class="d-flex align-items-center justify-content-center justify-content-md-end mt-30"
+                >
+                  <li>Home</li>
+                  <li>Blog</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="blog_card_section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="card mb-3">
+                <img
+                  src="img/blog-single-img-1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="blog_card_body">
+                  <h5 class="card-title">
+                    Drive success with cutting-edge <br />
+                    technology
+                  </h5>
+                  <p class="card-text">
+                    IT services also include technical support and maintenance,
+                    ensuring that systems run is smoothly and efficiently. The
+                    IT industry offers diverse career opportunities, from
+                    network administration to software development
+                  </p>
+                  <button class="blog_card_btn">Read More</button>
+                </div>
+              </div>
+              <div class="card mb-3">
+                <img
+                  src="img/blog-single-img-2.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="blog_card_body">
+                  <h5 class="card-title">
+                    Drive success with cutting-edge <br />
+                    technology
+                  </h5>
+                  <p class="card-text">
+                    IT services also include technical support and maintenance,
+                    ensuring that systems run is smoothly and efficiently. The
+                    IT industry offers diverse career opportunities, from
+                    network administration to software development
+                  </p>
+                  <button class="blog_card_btn">Read More</button>
+                </div>
+              </div>
+              <div class="card mb-3">
+                <img
+                  src="img/blog-single-img-3.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="blog_card_body">
+                  <h5 class="card-title">
+                    Drive success with cutting-edge <br />
+                    technology
+                  </h5>
+                  <p class="card-text">
+                    IT services also include technical support and maintenance,
+                    ensuring that systems run is smoothly and efficiently. The
+                    IT industry offers diverse career opportunities, from
+                    network administration to software development
+                  </p>
+                  <button class="blog_card_btn">Read More</button>
+                </div>
+              </div>
+              <div class="base-pagination text-center">
+                <ul
+                  class="list-unstyled d-flex justify-content-center flex-wrap align-items-center gap-4"
+                >
+                  <li>
+                    <a href="#" class="page-arrow"
+                      ><i class="far fa-angle-left"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" class="page-number active">1</a>
+                  </li>
+                  <li>
+                    <a href="#" class="page-number">2</a>
+                  </li>
+                  <li>
+                    <a href="#" class="page-number">3</a>
+                  </li>
+                  <li>
+                    <a href="#" class="page-arrow"
+                      ><i class="far fa-angle-right"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="search_cad">
+                <h4>Search</h4>
+                <input type="text" placeholder="Type here" /><i
+                  class="fa-brands fa-searchengin search_icon"
+                ></i>
+              </div>
+              <div class="Category_card">
+                <h4>Category</h4>
+                <div class="category">
+                  <button class="d-flex">
+                    <div>category</div>
+                    <div>(02)</div>
+                  </button>
+                </div>
+                <div class="category">
+                  <button class="d-flex">
+                    <div>Digital Edge Innovations</div>
+                    <div>(08)</div>
+                  </button>
+                </div>
+                <div class="category">
+                  <button class="d-flex">
+                    <div>Cyber Guard Technologies</div>
+                    <div>(06)</div>
+                  </button>
+                </div>
+                <div class="category">
+                  <button class="d-flex">
+                    <div>Cloud Wave Services</div>
+                    <div>(04)</div>
+                  </button>
+                </div>
+              </div>
+              <div class="Recent_Post_card">
+                <h4>Recent Post</h4>
+                <div>
+                  <div class="d-flex Recent_Post">
+                    <img src="img/blog-sm-img-1.png" alt="" />
+                    <div>
+                      <p>Category Comments(02)</p>
+                      <h5>Transform challenges into Opportunities</h5>
+                    </div>
+                  </div>
+                  <div class="d-flex Recent_Post">
+                    <img src="img/blog-sm-img-2.png" alt="" />
+                    <div>
+                      <p>Category Comments(02)</p>
+                      <h5>Transform challenges into Opportunities</h5>
+                    </div>
+                  </div>
+                  <div class="d-flex Recent_Post">
+                    <img src="img/blog-sm-img-3.png" alt="" />
+                    <div>
+                      <p>Category Comments(02)</p>
+                      <h5>Transform challenges into Opportunities</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="Tags_card">
+                <h4>Tags</h4>
+                <div>
+                  <div class="d-flex Tags">
+                    <p>InfoSec</p>
+                    <p>NexTech</p>
+                  </div>
+                  <div class="d-flex Tags">
+                    <p>SmartNet</p>
+                    <p>Byte</p>
+                  </div>
+                  <div class="d-flex Tags">
+                    <p>TechVista</p>
+                    <p>TechCraft</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- <footer>
+      <section class="section_bg">
+        <div class="footer_area">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="d-flex footer_card">
+                  <div>
+                    <img src="img/footer-sort-icon-1.svg" alt="" />
+                  </div>
+                  <div>
+                    <h4>
+                      Tech Fusion <br />
+                      Solutions
+                    </h4>
+                    <p>It encompasses the use of computers, networks</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="d-flex footer_card">
+                  <div>
+                    <img src="img/footer-sort-icon-2.svg" alt="" />
+                  </div>
+                  <div>
+                    <h4>
+                      Digital Edge <br />
+                      Innovations
+                    </h4>
+                    <p>The rapid advancement of technology continuously</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="d-flex footer_card">
+                  <div>
+                    <img src="img/footer-sort-icon-3.svg" alt="" />
+                  </div>
+                  <div>
+                    <h4>
+                      Cloud Wave <br />
+                      Services
+                    </h4>
+                    <p>The rapid advancement of technology continuously</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-3">
+                <div class="footer_wid">
+                  <img src="img/logo-white.png" alt="" />
+                  <p>
+                    Drives Innovation within the IT sector, making it a dynamic
+                  </p>
+                  <p class="contact_info">
+                    <i class="fa-solid fa-location-dot icon"></i>Address
+                  </p>
+                  <p>2464 Royal Ln. Mesa, New Jersey</p>
+                  <p class="contact_info">
+                    <i class="fa-solid fa-envelope icon"></i>Emails
+                  </p>
+                  <p>curtis.weaver@example.com</p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="footer_wid">
+                  <h3>Services</h3>
+                  <ul>
+                    <li><a href="">InfoSec Experts</a></li>
+                    <li><a href="">Quantum It Solutions</a></li>
+                    <li><a href="">NexusTech System </a></li>
+                    <li><a href="">SmartNet IT Services</a></li>
+                    <li><a href="">ByteForce Solutions</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="footer_wid">
+                  <h3>Link</h3>
+                  <ul>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Testimonial</a></li>
+                    <li><a href="">Blog And News</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="footer_wid">
+                  <h3>Recent Post</h3>
+                  <div>
+                    <h4>Crafting Tomorrow's <br />Digital World</h4>
+                    <p>October 19, 2024</p>
+                  </div>
+                  <div>
+                    <h4>Technology That <br />Powers the Future</h4>
+                    <p>October 19, 2024</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright_area">
+          <div class="container">
+            <hr />
+            <div class="row">
+              <div class="col-md-6">
+                adipisicing elit. Odio laboriosam esse minus nostrum fugit
+              </div>
+              <div class="col-md-6">
+                <ul>
+                  <li><a href="">Privacy Policy</a></li>
+                  <li><a href="">Terms of condition</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer> -->
+    <!-- font awesome            -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/js/all.min.js"
+      integrity="sha512-gBYquPLlR76UWqCwD06/xwal4so02RjIR0oyG1TIhSGwmBTRrIkQbaPehPF8iwuY9jFikDHMGEelt0DtY7jtvQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
