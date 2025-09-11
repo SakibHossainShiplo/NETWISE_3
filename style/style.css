@@ -1618,3 +1618,57 @@ li {
   padding: 10px 15px;
   border-radius: 50px;
 }
+/************************************ contact style ***************************** */
+/* .contact_section */
+.contact_address {
+  border: 1px solid black;
+  padding: 30px 5px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+.contact_address p {
+  font-size: 18px;
+}
+.service_section {
+  padding: 120px;
+}
+.contact_icon {
+  background-color: #f1f6fc;
+  padding: 20px;
+  border-radius: 100px;
+}
+.contact_from input {
+  width: 430px;
+  padding: 20px;
+  border: none;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  margin-top: 30px;
+}
+.contact_from textarea {
+  width: 860px;
+  height: 200px;
+  border: none;
+  border-radius: 50px;
+}
+.contact_from button {
+  width: 400px;
+  padding: 15px;
+  background-color: green;
+  border-radius: 50px;
+  border: none;
+}
+.contact_content {
+  text-align: center;
+}
+.contact_content h1 {
+  font-size: 50px;
+  font-weight: 700;
+  padding-top: 30px;
+}
+.contact_bg {
+  background-color: #f1f6fc;
+  border-radius: 20px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
